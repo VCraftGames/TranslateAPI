@@ -1,0 +1,10 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/VCraftGames/TranslateAPI
+build-by-default: true
+branches:
+- main
+projects:
+  TranslateAPI:
+    path: ""
+    model: virion
+    type: library
+...
