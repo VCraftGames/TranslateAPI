@@ -1,0 +1,8 @@
+name: TesterPlugin
+version: 1.0.0
+api: 4.0.0
+load: POSTWORLD
+main: VCraftGames\TesterPlugin\Main
+src-namespace-prefix: VCraftGames\TesterPlugin
+author: VCraftGames
+description: Plugin to test the TranslateAPI virion
