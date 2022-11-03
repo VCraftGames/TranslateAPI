@@ -13,7 +13,7 @@ final class Main extends PluginBase{
         $text = "Hello World!";
         $from = "en";
         $to = "ja";
-        $results = Translate::translate($text, $from, $to);
+        $results = Translate::translate($from, $to, $text);
         if($results === null){
             $this->getLogger()->error("Failed to translate!");
         } else{
